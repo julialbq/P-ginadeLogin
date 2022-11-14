@@ -1,0 +1,91 @@
+.modal {
+  position: fixed;
+  top: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_background {
+  position: absolute;
+  min-height: 100vh;
+  width: 100vw;
+  background: var(--primary);
+  opacity: 60%;
+}
+
+.modal_content {
+  z-index: 1;
+  width: 15rem;
+  height: 18rem;
+  background-color: var(--background-color2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 0 1rem;
+}
+
+.modal_close {
+  display: flex;
+  justify-content: right;
+  padding-bottom: 20px;
+}
+
+.modal_close > span {
+  background-color: var(--detail-color);
+  color: var(-primary);
+  border-radius: 50px;
+  padding: 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.modal_content > p {
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+.modal_content > span {
+  font-size: 0.8rem;
+  color: var(--text-color2);
+}
+
+.modal_content > input {
+  background-color: var(--text-color2);
+  color: var(--text-color1);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.modal_content > input::placeholder {
+  color: var(--text-color1);
+}
+
+.modal_content > button {
+  width: 100%;
+  background-color: var(--button-color);
+  color: var(--text-color1);
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.close_modal {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .modal_content {
+    width: 21rem;
+    height: 21rem;
+  }
+
+  .modal_title {
+    padding-bottom: 50px;
+  }
+}

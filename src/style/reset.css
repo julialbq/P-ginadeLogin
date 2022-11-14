@@ -1,0 +1,22 @@
+body, main, div, h1, p, h2, input, button, span, a {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --primary: #351348;
+    --background-color1: #7E4A9B;
+    --background-color2: #F4EBF9;
+    --text-color1: #E4C9F2;
+    --text-color2: #B279D1;
+    --button-color: #582A72;
+    --detail-color: #BA9DCA;
+}
+
+body {
+    background-color: var(--primary);
+}
