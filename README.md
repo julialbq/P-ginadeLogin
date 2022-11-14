@@ -12,6 +12,8 @@
 
 ## Preview
 
+[Link da aplicação](https://julialbq.github.io/PaginadeLogin/)
+
 ![pagina-login-mobile](https://user-images.githubusercontent.com/93345010/201738511-cc1f9c65-0942-4d46-b8a6-aceadc9d3c04.JPG)
 
 ![pagina-login-desktop](https://user-images.githubusercontent.com/93345010/201738532-27ab50ea-5962-4413-a8b1-9955e1ef3ffe.JPG)
